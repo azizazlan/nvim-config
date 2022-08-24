@@ -212,6 +212,11 @@ _G.packer_plugins = {
     path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["present.nvim"] = {
+    loaded = true,
+    path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/present.nvim",
+    url = "https://github.com/Chaitanyabsprip/present.nvim"
+  },
   ["project.nvim"] = {
     loaded = true,
     path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/project.nvim",
@@ -231,6 +236,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
   },
   ["which-key.nvim"] = {
     loaded = true,

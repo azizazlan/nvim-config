@@ -5,12 +5,15 @@ end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
-  [[  __   __           __                   ]],
-  [[|  |_|  |--.--.--.|  |.-----.-----.-----.]],
-  [[|   _|     |  |  ||  ||  -__|  -__|     |]],
-  [[|____|__|__|_____||__||_____|_____|__|__|]],
-  [[                                         ]],
-  [[  "Trusted, advanced yet acceptable"     ]],
+[[                                       ]],
+[[  _   _           _                    ]],
+[[ | | | |         | |                   ]],
+[[ | |_| |__  _   _| | ___  ___ _ __     ]],
+[[ | __| '_ \| | | | |/ _ \/ _ \ '_ \    ]],
+[[ | |_| | | | |_| | |  __/  __/ | | |   ]],
+[[  \__|_| |_|\__,_|_|\___|\___|_| |_|   ]],
+[[                                       ]],
+[[ "trusted, advanced, yet acceptable"   ]]
 }
 
 dashboard.section.buttons.val = {
@@ -29,7 +32,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "Tech Lead - azlan@thuleen.io"
+	return "azlan@thuleen.io | Department of Enginering"
 end
 
 dashboard.section.footer.val = footer()
