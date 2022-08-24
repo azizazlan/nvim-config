@@ -212,11 +212,6 @@ _G.packer_plugins = {
     path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["present.nvim"] = {
-    loaded = true,
-    path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/present.nvim",
-    url = "https://github.com/Chaitanyabsprip/present.nvim"
-  },
   ["project.nvim"] = {
     loaded = true,
     path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/project.nvim",
