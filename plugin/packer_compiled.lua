@@ -232,11 +232,6 @@ _G.packer_plugins = {
     path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
   },
-  ["vscode.nvim"] = {
-    loaded = true,
-    path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/vscode.nvim",
-    url = "https://github.com/Mofiqul/vscode.nvim"
-  },
   ["which-key.nvim"] = {
     loaded = true,
     path = "/Users/azlan/.local/share/nvim/site/pack/packer/start/which-key.nvim",
