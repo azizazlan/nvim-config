@@ -11,7 +11,7 @@ local diagnostics = null_ls.builtins.diagnostics
 null_ls.setup({
 	debug = true,
 	sources = {
-		formatting.prettier.with({ extra_args = { "--single-quote", "--jsx-single-quote", "--bracketSpacing", "--semi" } }),
+		formatting.prettier.with({ extra_args = { "--single-quote", "--jsx-single-quote", "bracketSpacing : true", "--semi" } }),
 		-- formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.stylua,
     -- diagnostics.flake8
